@@ -1,9 +1,1 @@
 Dockerfile
-LICENSE
-README.md
-.git
-entrypoint.sh
-create-cost-plugin.py
-delete-cost-plugin.py
-show-cost-plugin.py
-update-cost-plugin.py
