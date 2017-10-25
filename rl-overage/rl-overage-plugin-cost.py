@@ -29,7 +29,7 @@ if os.path.isdir("/run/secrets"):
 auth_endpoint = 'https://' + os.environ['RS_SERVER'] + '/api/oauth2'
 parent_acc = "/api/accounts/" + os.environ['RS_ACCOUNT_ID']
 refresh_token = os.environ['RS_REFRESH_TOKEN']
-rl_rate = os.environ['RIGHTLINK_RATE']
+rl_rate = float(os.environ['RIGHTLINK_RATE'])
 
 #works out date range for this month
 now = datetime.datetime.now()

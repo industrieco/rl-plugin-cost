@@ -6,6 +6,6 @@ RUN apk update && \
       python \
       py2-requests
 
-COPY . /usr/local/rightscale-plugin-costs
+COPY . /usr/local/rl-overage
 
 CMD ["crond", "-l", "2", "-f"]
